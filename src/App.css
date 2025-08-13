@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-2
+}
+
+.mobile-nav{
+  @apply fixed left-0 top-6 bg-gray-500 w-full  
+}
+.mobile-nav li{
+  @apply w-full  h-full text-center border-b-2
+}
